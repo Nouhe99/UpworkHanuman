@@ -61,6 +61,9 @@ sysinfo.txt
 *.unitypackage
 *.app
 
+# Ignore large Unity package tarballs (like Vuforia)
+Packages/*.tgz
+
 # Crashlytics generated file
 crashlytics-build.properties
 
