@@ -1,0 +1,392 @@
+fileFormatVersion: 2
+guid: 55136bc80a53c1f48ae70d579cd01db5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animated-sequence-show-speed-dust-cloud-movement_0
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 455
+        width: 141
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1c0438ec8a0c94db2ff32802c83b2a
+      internalID: 1275718262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-sequence-show-speed-dust-cloud-movement_1
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 452
+        width: 135
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c1d25d36c4969418df289e64a6cd2c
+      internalID: -1743621280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-sequence-show-speed-dust-cloud-movement_3
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 453
+        width: 136
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55fedf25a83ad9499f9ef952c9ad19d
+      internalID: -1594025148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-sequence-show-speed-dust-cloud-movement_5
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 453
+        width: 153
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8ce9b93b71bee40ae192f30bee743e
+      internalID: -1185617662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-sequence-show-speed-dust-cloud-movement_6
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 455
+        width: 53
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24970eae59bc4004ba5807f95e5d98aa
+      internalID: 1070427501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-sequence-show-speed-dust-cloud-movement_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 119
+        width: 144
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143eaf7e958ea1f4dbf6f17083f55378
+      internalID: 696090717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-sequence-show-speed-dust-cloud-movement_4
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 122
+        width: 129
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4b5d5bd8eeb5a4996e39fa5838cd4b
+      internalID: -673697330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-sequence-show-speed-dust-cloud-movement_7
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 146
+        width: 126
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07771cdaceb7fab48a8e6ce60543fe3c
+      internalID: -1088599196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-sequence-show-speed-dust-cloud-movement_8
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 178
+        width: 107
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f38d85bb68d4e44843e4ab43b7aa36
+      internalID: -950300826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-sequence-show-speed-dust-cloud-movement_9
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 230
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7923ad4096f8047aae622923c7990b
+      internalID: 1617536421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      animated-sequence-show-speed-dust-cloud-movement_0: 1275718262
+      animated-sequence-show-speed-dust-cloud-movement_1: -1743621280
+      animated-sequence-show-speed-dust-cloud-movement_10: 1717226887
+      animated-sequence-show-speed-dust-cloud-movement_11: 1016542891
+      animated-sequence-show-speed-dust-cloud-movement_12: -1541338212
+      animated-sequence-show-speed-dust-cloud-movement_13: -173852074
+      animated-sequence-show-speed-dust-cloud-movement_14: 346207514
+      animated-sequence-show-speed-dust-cloud-movement_15: 168609457
+      animated-sequence-show-speed-dust-cloud-movement_16: -1808797479
+      animated-sequence-show-speed-dust-cloud-movement_17: 640352930
+      animated-sequence-show-speed-dust-cloud-movement_18: 1780710790
+      animated-sequence-show-speed-dust-cloud-movement_19: 1604783244
+      animated-sequence-show-speed-dust-cloud-movement_2: 696090717
+      animated-sequence-show-speed-dust-cloud-movement_20: 947468959
+      animated-sequence-show-speed-dust-cloud-movement_21: 1609869933
+      animated-sequence-show-speed-dust-cloud-movement_22: 1764501135
+      animated-sequence-show-speed-dust-cloud-movement_23: 2028992664
+      animated-sequence-show-speed-dust-cloud-movement_24: -1928884693
+      animated-sequence-show-speed-dust-cloud-movement_25: 444959804
+      animated-sequence-show-speed-dust-cloud-movement_26: -1217403643
+      animated-sequence-show-speed-dust-cloud-movement_27: 1037649590
+      animated-sequence-show-speed-dust-cloud-movement_28: -1169124909
+      animated-sequence-show-speed-dust-cloud-movement_29: -106508148
+      animated-sequence-show-speed-dust-cloud-movement_3: -1594025148
+      animated-sequence-show-speed-dust-cloud-movement_30: 1255311000
+      animated-sequence-show-speed-dust-cloud-movement_31: 412566786
+      animated-sequence-show-speed-dust-cloud-movement_32: 1058079082
+      animated-sequence-show-speed-dust-cloud-movement_33: -173435294
+      animated-sequence-show-speed-dust-cloud-movement_34: -1784276896
+      animated-sequence-show-speed-dust-cloud-movement_35: 86475214
+      animated-sequence-show-speed-dust-cloud-movement_36: -1311446335
+      animated-sequence-show-speed-dust-cloud-movement_37: 668591294
+      animated-sequence-show-speed-dust-cloud-movement_38: 1453054963
+      animated-sequence-show-speed-dust-cloud-movement_39: -50002470
+      animated-sequence-show-speed-dust-cloud-movement_4: -673697330
+      animated-sequence-show-speed-dust-cloud-movement_40: 1076490653
+      animated-sequence-show-speed-dust-cloud-movement_41: -1477793010
+      animated-sequence-show-speed-dust-cloud-movement_5: -1185617662
+      animated-sequence-show-speed-dust-cloud-movement_6: 1070427501
+      animated-sequence-show-speed-dust-cloud-movement_7: -1088599196
+      animated-sequence-show-speed-dust-cloud-movement_8: -950300826
+      animated-sequence-show-speed-dust-cloud-movement_9: 1617536421
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

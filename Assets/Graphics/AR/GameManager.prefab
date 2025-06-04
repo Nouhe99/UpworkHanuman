@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8781317143526778463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1666258934208903787}
+  - component: {fileID: 3500626744653030889}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1666258934208903787
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8781317143526778463}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3500626744653030889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8781317143526778463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb3122cd1a58f7d4180d72aa26bf577b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackedImageManager: {fileID: 0}
+  referenceImageLibrary: {fileID: 11400000, guid: b1e0c97fbb7a25441ac7c2ff6031b86f,
+    type: 2}
+  imagePrefabs:
+  - imageName: AloeVera
+    prefab: {fileID: 9085124240473170766, guid: d9342650d947dc64497cbea03ccca88d,
+      type: 3}
+  - imageName: Chamomile
+    prefab: {fileID: 6033743895681146904, guid: d09d1db630c792845a5d9e6e61b0c0c9,
+      type: 3}
+  - imageName: Lavender
+    prefab: {fileID: 8163200228386959225, guid: 1e8426a5af794bc4d8a16f249841bc22,
+      type: 3}
+  - imageName: Mint
+    prefab: {fileID: 3088903856808864698, guid: f2ef681c9c96164409f32ee595e38a74,
+      type: 3}
+  allScannedMessage: {fileID: 254164713067239018, guid: 5b0a29b21996e97459e2b634ae930002,
+    type: 3}

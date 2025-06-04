@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="Chamomile" size="1.000000 1.429102" />
+    <ImageTarget name="Mint" size="1.000000 1.418330" />
+    <ImageTarget name="Lavender" size="1.000000 1.449393" />
+    <ImageTarget name="AloeVera" size="0.400000 0.574917" />
+  </Tracking>
+</QCARConfig>
