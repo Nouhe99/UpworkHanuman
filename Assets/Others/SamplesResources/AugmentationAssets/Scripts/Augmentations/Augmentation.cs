@@ -30,9 +30,9 @@ public abstract class Augmentation : MonoBehaviour
         OnExit();
     }
     
-    /// <summary>
+
     /// Restores the objects state as if the scene has been reloaded
-    /// </summary>
+
     public virtual void Restore()
     {
         Disable();
@@ -51,9 +51,9 @@ public abstract class Augmentation : MonoBehaviour
         OnExitEvent.Invoke();
     }
     
-    /// <summary>
+
     /// Enables or disables all renderers on a GameObject and its children
-    /// </summary>
+
     /// <param name="enable">True to enable renderers, false to disable them</param>
     public virtual void SetRenderersEnabled(bool enable)
     {
@@ -62,9 +62,9 @@ public abstract class Augmentation : MonoBehaviour
             component.enabled = enable;
     }
 
-    /// <summary>
+
     /// Enables or disables all colliders on a GameObject and its children
-    /// </summary>
+
     /// <param name="enable">True to enable colliders, false to disable them</param>
     public virtual void SetCollidersEnabled(bool enable)
     {
@@ -73,9 +73,9 @@ public abstract class Augmentation : MonoBehaviour
             component.enabled = enable;
     }
     
-    /// <summary>
+
     /// Waits for a number of seconds then performs an action
-    /// </summary>
+
     IEnumerator WaitForThen(float waitSeconds, Action action)
     {
         yield return new WaitForSeconds(waitSeconds);

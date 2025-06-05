@@ -31,9 +31,9 @@ public class ARManager : MonoBehaviour
         }
     }
 
-    /// <summary>
+
     /// Called when an image target changes tracking status.
-    /// </summary>
+
     private void OnTargetStatusChanged(ObserverBehaviour behaviour, TargetStatus status)
     {
         if (!isScanningEnabled) return;
@@ -57,9 +57,9 @@ public class ARManager : MonoBehaviour
         }
     }
 
-    /// <summary>
+
     /// Show the associated canvas and pause scanning.
-    /// </summary>
+
     public void ShowCanvas()
     {
         transform.GetChild(0).gameObject.SetActive(true);
@@ -68,9 +68,9 @@ public class ARManager : MonoBehaviour
         ToggleImageTargets(false); // Disable scanning while canvas is shown
     }
 
-    /// <summary>
+
     /// Called when the canvas is closed.
-    /// </summary>
+
     public void OnCanvasClosed()
     {
         isCanvasVisible = false;
@@ -83,9 +83,9 @@ public class ARManager : MonoBehaviour
         }
     }
 
-    /// <summary>
+
     /// Enable or disable all image target tracking.
-    /// </summary>
+
     private void ToggleImageTargets(bool isEnabled)
     {
         foreach (var target in imageTargets)
@@ -94,18 +94,18 @@ public class ARManager : MonoBehaviour
         }
     }
 
-    /// <summary>
+
     /// Called once all image targets have been scanned.
-    /// </summary>
+
     private void OnAllTargetsScanned()
     {
         Debug.Log("✅ All 4 image targets have been scanned at least once!");
         scannedResult.SetActive(true);
     }
 
-    /// <summary>
+
     /// Loads the next scene (example: scene 2).
-    /// </summary>
+
     public void NextGame()
     {
         SceneManager.LoadScene(2);

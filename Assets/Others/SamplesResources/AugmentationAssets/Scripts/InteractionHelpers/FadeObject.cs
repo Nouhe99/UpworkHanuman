@@ -63,9 +63,9 @@ public class FadeObject : MonoBehaviour
         }
     }
     
-    /// <summary>
+
     /// Immediately changes the opacity and prevents this script from setting its on opacity on start
-    /// </summary>
+
     public void SetInitialOpacity(float opacity)
     {
         mFadeRatio = opacity;

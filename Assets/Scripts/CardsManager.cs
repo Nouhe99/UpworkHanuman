@@ -66,18 +66,18 @@ public class CardsManager : MonoBehaviour
         }
     }
 
-    /// <summary>
+
     /// Plays sound when a card is flipped.
-    /// </summary>
+
     public void PlayFlipSound()
     {
         if (flipSound != null)
             audioSource.PlayOneShot(flipSound);
     }
 
-    /// <summary>
+
     /// Plays sound when cards match and shows random text.
-    /// </summary>
+
     public void PlayMatchSound()
     {
         if (matchSound != null)
@@ -87,9 +87,9 @@ public class CardsManager : MonoBehaviour
             RandomTextDisplayer.instance.ShowRandomText();
     }
 
-    /// <summary>
+
     /// Called when a card is flipped.
-    /// </summary>
+
     public void CardFlipped(Cards card)
     {
         if (firstCard == null)
@@ -103,9 +103,9 @@ public class CardsManager : MonoBehaviour
         }
     }
 
-    /// <summary>
+
     /// Checks if the two flipped cards match.
-    /// </summary>
+
     private IEnumerator CheckMatch()
     {
         IsBusy = true;
@@ -140,25 +140,25 @@ public class CardsManager : MonoBehaviour
         IsBusy = false;
     }
 
-    /// <summary>
+
     /// Restart only the card-matching scene.
-    /// </summary>
+
     public void RestartCardsGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-    /// <summary>
+
     /// Restart the full game from scene 0.
-    /// </summary>
+
     public void RestartFullGame()
     {
         SceneManager.LoadScene(0);
     }
 
-    /// <summary>
+
     /// Quit the application.
-    /// </summary>
+
     public void Quit()
     {
         Application.Quit();

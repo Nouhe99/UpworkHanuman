@@ -46,9 +46,9 @@ public abstract class AugmentationStateMachineBehaviour : StateMachineBehaviour
 
     public abstract Type GetTargetType();
     
-    /// <summary>
+
     /// Gets a delegate for the method of type T named methodName. Creates it if it does not already exist in the cache.
-    /// </summary>
+
     /// <returns></returns>
     public Action<T> GetMethod<T>(T augmentation, string methodName)
     {
@@ -96,9 +96,9 @@ public abstract class AugmentationStateMachineBehaviour : StateMachineBehaviour
         return result;
     }
 
-    /// <summary>
+
     /// Caches a delegate by type and method name
-    /// </summary>
+
     void AddDelegateToCache<T>(Action<T> delegateToAdd, string methodName)
     {
         Dictionary<string, Delegate> delegateByMethodName;
